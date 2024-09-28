@@ -29,6 +29,11 @@ if climbing
 		
 } else
 {
+	if (keyboard_check_pressed(ord("Z")))
+	{
+		instance_create_layer(x,y,"Instances",obj_sword)
+	}
+	
 	if (keyboard_check(vk_left) and !instance_place(x-move_speed,y,obj_block)) {
 		image_xscale = -1
 		x += -move_speed
@@ -61,4 +66,6 @@ if climbing
 	{
 		vspeed = 12
 	}
+	
+	
 }
