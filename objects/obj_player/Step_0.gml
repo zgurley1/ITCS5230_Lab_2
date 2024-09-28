@@ -27,6 +27,30 @@ if climbing
 		climbing = false
 	}
 		
+} else if (can_fly)
+{
+	if (keyboard_check(vk_left) and !instance_place(x-move_speed,y,obj_block)) {
+		image_xscale = -1
+		x += -move_speed
+	}
+
+	if (keyboard_check(vk_right) and !instance_place(x+move_speed,y,obj_block)) {
+		image_xscale = 1
+		x += move_speed
+	}
+
+	if (keyboard_check(vk_up) and !instance_place(x,y-move_speed,obj_block))
+	{
+		y-=move_speed
+	
+	}
+	if (keyboard_check(vk_down) and !instance_place(x,y+move_speed,obj_block))
+	{
+		y+=move_speed
+	
+	}
+	
+	
 } else
 {
 	if (keyboard_check_pressed(ord("Z")))
