@@ -12,6 +12,7 @@
     {"name":"obj_monster","order":3,"path":"objects/obj_monster/obj_monster.yy",},
     {"name":"obj_mushroom","order":9,"path":"objects/obj_mushroom/obj_mushroom.yy",},
     {"name":"obj_patroller","order":11,"path":"objects/obj_patroller/obj_patroller.yy",},
+    {"name":"obj_sword","order":12,"path":"objects/obj_sword/obj_sword.yy",},
     {"name":"rm_end","order":1,"path":"rooms/rm_end/rm_end.yy",},
     {"name":"snd_kill_character","order":1,"path":"sounds/snd_kill_character/snd_kill_character.yy",},
     {"name":"snd_kill_monster","order":2,"path":"sounds/snd_kill_monster/snd_kill_monster.yy",},

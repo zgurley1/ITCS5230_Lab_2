@@ -47,6 +47,7 @@
     {"id":{"name":"obj_mushroom","path":"objects/obj_mushroom/obj_mushroom.yy",},},
     {"id":{"name":"obj_patroller","path":"objects/obj_patroller/obj_patroller.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_sword","path":"objects/obj_sword/obj_sword.yy",},},
     {"id":{"name":"path_flyer","path":"paths/path_flyer/path_flyer.yy",},},
     {"id":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
